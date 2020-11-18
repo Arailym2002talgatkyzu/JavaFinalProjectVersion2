@@ -1,0 +1,111 @@
+
+body{
+    background-image: url("user.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.user-ava{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 40px
+}
+.user-name{
+    margin-left: 3%;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.user-button{
+    float: right;
+    margin-left: 15%;
+    margin-top: 25px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255,255, 255, 0.5);
+
+}
+.students{
+    width: 35%;
+    height: 5000px;
+    background-color: rgba(0, 255, 255,0.5);
+    float: right;
+    margin-right: 10px;
+    margin-top:4%;
+
+}
+.content{
+    width:40%;
+    height: 5000px;
+    background-color: rgba(135, 206, 250,0.5);
+    float:right;
+    margin-right: 50px;
+    margin-top:4%;
+
+}
+.navigator{
+    width: 15%;
+    height: 200px;
+    background-color: rgba(0,0,0,0.4);
+    margin-top:4%;
+    position: fixed;
+}
+
+#event, #news, #clubs{
+    margin-top: 20px;
+    margin-left: 44px;
+    background-color: green;
+    color: white;
+    font-family: GEORGIA;
+    width: 100px;
+    padding: 5px;
+}
+
+.eventImage, .newsImage{
+    width: 150px;
+    height: 150px;
+}
+.eventArticle, .newsArticle, .clubArticle{
+    background-color: white;
+    margin-left: 8px;
+    margin-top: 8px;
+    width: 95%;
+    height: 150px;
+}
+.eventMessage, .newsMessage, .clubMessage{
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.studentItems{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.student-ava{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.searchEngine{
+    width: 100px;
+    margin-left: 45%;
+}
+
+
+.student-name{
+    font-size: 25px;
+
+}
+
